@@ -21,6 +21,10 @@
   --modal-bg: #fcfcfc;
 }
 
+img{
+  display: block;
+}
+
 body {
   background-color: var(--white-bg);
   color: var(--text);
