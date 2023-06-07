@@ -59,11 +59,13 @@ a {
   width: 1158px;
   display: flex;
   padding: 0 15px;
+  border-bottom: 1px solid #e7e9fc ;
 }
 
 .menu__nav {
   display: flex;
   gap: 40px;
+   align-items: center;
 }
 
 .nav__item,
@@ -80,11 +82,13 @@ a {
 .logo {
   margin-right: 76px;
   display: flex;
+  padding: 24px 0;
 }
 
 .logo__part2 {
   color: var(--dark);
   display: flex;
+   padding: 24px 0;
 }
 
 .nav__link {
@@ -94,6 +98,7 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+   padding: 24px 0;
 }
 .link:hover {
   color: var(--pressed-state);
@@ -320,6 +325,9 @@ a {
 }
 
 .icon__cont__text {
+   display: inline-block;
+   margin-bottom: 16px; 
+    max-width: 264px;
 }
 .icon__cont__footer {
   display: flex;

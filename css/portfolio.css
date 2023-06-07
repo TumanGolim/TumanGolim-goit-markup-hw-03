@@ -61,15 +61,16 @@ body {
 
 .top__nav {
   height: 72px;
+  width: 1158px;
   display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid var(--accent);
+  padding: 0 15px;
+  border-bottom: 1px solid #e7e9fc ;
 }
 
 .menu__nav {
   display: flex;
-  gap: 76px;
-  align-items: center;
+  gap: 40px;
+   align-items: center;
 }
 
 .nav__item,
@@ -80,21 +81,19 @@ body {
 
 .nav__address {
   display: flex;
-  align-items: center;
+  gap: 40px;
 }
 
 .logo {
-  font-family: var(--logo-font);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  color: var(--primary-brand);
-  text-transform: uppercase;
+  margin-right: 76px;
+  display: flex;
+  padding: 24px 0;
 }
 
 .logo__part2 {
-  color: #2e2f42;
+  color: var(--dark);
+  display: flex;
+   padding: 24px 0;
 }
 
 .nav__link {
@@ -104,6 +103,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+   padding: 24px 0;
 }
 .link:hover {
   color: var(--pressed-state);
@@ -119,11 +119,6 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-}
-
-.hero__bg {
-  height: 600px;
-  background-color: var(--dark);
 }
 
 /*! 
